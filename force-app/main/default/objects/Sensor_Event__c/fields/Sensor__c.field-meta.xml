@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sensor__c</fullName>
+    <externalId>false</externalId>
+    <label>Sensor</label>
+    <referenceTo>Sensor__c</referenceTo>
+    <relationshipLabel>Sensor Event</relationshipLabel>
+    <relationshipName>Sensor_Event</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
