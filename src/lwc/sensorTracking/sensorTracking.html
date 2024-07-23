@@ -1,0 +1,18 @@
+<template>
+  <lightning-combobox
+          name="sensors"
+          label="Select Sensor"
+          value={selectedSensorId}
+          options={sensorOptions}
+          onchange={handleSensorChange}
+  ></lightning-combobox>
+
+  <lightning-datatable
+          key-field="Id"
+          data={sensorEvents}
+          columns={columns}
+          draft-values={draftValues}
+          onsave={handleSave}
+          oncellchange={handleCellChange}
+  ></lightning-datatable>
+</template>
